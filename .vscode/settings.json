@@ -12,5 +12,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // 파일 저장시 formatter 실행
   "editor.formatOnSave": true,
-  "editor.rulers": [120]
+  "editor.rulers": [120], // prettier printWidth랑 동일해야함
+
+  "eslint.packageManager": "yarn",
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 }
