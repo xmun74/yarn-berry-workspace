@@ -25,7 +25,7 @@ export default function Home() {
           <p>
             <code className={styles.code}>의존성 테스트 {sayHello()}</code>
           </p>
-          <Button>완료</Button>
+          <Button variant="contained">완료</Button>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
