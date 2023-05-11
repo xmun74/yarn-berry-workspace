@@ -420,6 +420,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wanted/admin@workspace:apps/admin":
+  version: 0.0.0-use.local
+  resolution: "@wanted/admin@workspace:apps/admin"
+  dependencies:
+    "@types/node": 18.16.3
+    "@types/react": 18.2.0
+    "@types/react-dom": 18.2.1
+    "@wanted/lib": "workspace:^"
+    "@wanted/ui": "workspace:^"
+    eslint: 8.39.0
+    eslint-config-next: 13.3.4
+    next: 13.3.4
+    react: 18.2.0
+    react-dom: 18.2.0
+    typescript: 5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@wanted/lib@workspace:^, @wanted/lib@workspace:packages/lib":
   version: 0.0.0-use.local
   resolution: "@wanted/lib@workspace:packages/lib"
