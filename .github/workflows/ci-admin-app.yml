@@ -8,7 +8,7 @@ on:
 on:
   push:
     branches:
-      - 6-deploy-github-actions
+      - 5-deploy
     paths:
       - 'apps/admin/**'
 
